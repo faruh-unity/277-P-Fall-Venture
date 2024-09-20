@@ -9972,22 +9972,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrivacyAcceptor_U3CbfdxcvbU3Eb__15_0_m2C
 		L_1 = PrivacyAcceptor_IsShowTrueInUrl_m2F592D242B4C9E996ADEA8A4708531A7CAC9AB06(__this, L_0, NULL);
 		if (!L_1)
 		{
-			goto IL_001d;
+			goto IL_001c;
 		}
 	}
 	{
-		String_t* L_2 = ___0_normalUrl;
-		PrivacyAcceptor_frwasqd_mB3DF5053630500C1129CDF61B8256E3F015A9E40(__this, L_2, (bool)1, NULL);
+		PrivacyAcceptor_wrafdswq_mDCD892D03E273F647BFCFE1CF8F9ADED19B0F245(__this, (bool)0, NULL);
 		PrivacyAcceptor_wsafqdr_m02508ADDCFFF0F1B55770F6BA93AA86CC29C5BE9(__this, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 		return;
 	}
 
-IL_001d:
+IL_001c:
 	{
+		String_t* L_2 = ___0_normalUrl;
+		PrivacyAcceptor_frwasqd_mB3DF5053630500C1129CDF61B8256E3F015A9E40(__this, L_2, (bool)0, NULL);
 		String_t* L_3 = ___0_normalUrl;
-		PrivacyAcceptor_frwasqd_mB3DF5053630500C1129CDF61B8256E3F015A9E40(__this, L_3, (bool)0, NULL);
-		String_t* L_4 = ___0_normalUrl;
-		PrivacyAcceptor_wsafqdr_m02508ADDCFFF0F1B55770F6BA93AA86CC29C5BE9(__this, L_4, NULL);
+		PrivacyAcceptor_wsafqdr_m02508ADDCFFF0F1B55770F6BA93AA86CC29C5BE9(__this, L_3, NULL);
 		return;
 	}
 }
